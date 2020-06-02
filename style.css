@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: crimson;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    width: 300px;
+    height: 400px;
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+input[type="radio"]{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}

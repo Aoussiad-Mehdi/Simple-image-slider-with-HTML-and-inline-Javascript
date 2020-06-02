@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Just a simple image slider that i made in 10 minutes-->
+<body>
+    <h1>Image slider</h1>
+    <div class="container">
+        <div class="slide" id="demo">
+              <div class="checks">
+                  <!--Inline Javascript-->
+                  <input onclick="document.getElementById('demo').style.backgroundImage='url(bg4.jpg)' " type="radio" class="slider-1" checked>
+                  <input onclick="document.getElementById('demo').style.backgroundImage='url(portrait2.jpeg)' " type="radio" class="slider-2">
+                  <input onclick="document.getElementById('demo').style.backgroundImage='url(portrait1.jpeg)' " type="radio" class="slider-3">
+              </div>
+        </div>
+        
+    </div>
+</body>
+</html>
