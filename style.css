@@ -23,6 +23,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
+/* grid to center the input buttons */
 .slide{
     width: 300px;
     height: 400px;
